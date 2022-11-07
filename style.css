@@ -1,0 +1,167 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    
+    margin: 50px auto   ;
+    position: relative;
+    animation-name: abc;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes abc{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border-top-right-radius:100px ;
+    border-bottom-left-radius:100px ;
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+    position: absolute;
+}
+.c1{
+    background-color: yellowgreen;
+    transform: rotate(0deg);
+}
+.c2{
+    background: cyan;
+    transform: rotate(11deg);
+}
+.c3{
+    background:blueviolet;
+    transform: rotate(22deg);
+}
+.c4{
+    background: gold;
+    transform: rotate(33deg);
+}
+.c5{
+    background: hotpink;
+    transform: rotate(44deg);
+}
+.c6{
+    background: lightblue;
+    transform: rotate(55deg);
+}
+.c7{
+    background:lightcoral;
+    transform: rotate(66deg);
+}
+.c8{
+    background: lightseagreen;
+    transform: rotate(77deg);
+}
+.c9{
+    background: silver;
+    transform: rotate(88deg);
+}
+.c9{
+    background: tomato;
+    transform: rotate(99deg);
+
+}
+.c10{
+    background:turquoise;
+    transform: rotate(108deg);
+
+}
+.c11{
+    background: yellow;
+    transform: rotate(121deg);
+}
+.c12{
+    background:bisque;
+    transform: rotate(132deg);
+}
+.c13{
+    background: cadetblue;
+    transform: rotate(143deg);
+
+}
+.c14{
+    background: chocolate;
+    transform: rotate(154deg);
+}
+.c15{
+    background: cornsilk;
+    transform: rotate(165deg);
+}
+.c16{
+    background: darkcyan;
+    transform: rotate(176deg);
+}
+.c17 {
+    background: darkgoldenrod;
+    transform: rotate(187deg);
+}
+.c18{
+    background: darkgray;
+    transform: rotate(198deg);
+}
+.c19{
+    background: darkgreen;
+    transform: rotate(209deg);
+}
+.c20{
+    background:darkblue;
+    transform: rotate(220deg);
+
+}
+.c21{
+    background: darkmagenta;
+    transform: rotate(231deg);
+}
+.c22{
+    background: darkorange;
+    transform: rotate(242deg);
+}
+.c23{
+    background: darkslategray;
+    transform: rotate(253deg);
+}
+.c24{
+    background: darkturquoise;
+    transform: rotate(264deg);
+}
+.c25{
+    background:darkviolet;
+    transform: rotate(275deg);
+}
+.c26{
+    background: deeppink;
+    transform: rotate(286deg);
+}
+.c27{
+    background: dimgray;
+    transform: rotate(297deg);
+}
+.c28{
+    background:dodgerblue;
+    transform: rotate(308deg);
+}
+.c29{
+    background: firebrick;
+    transform: rotate(319deg);
+}
+.c30{
+    background: floralwhite;
+    transform: rotate(330deg);
+}
+.c31{
+    background:fuchsia;
+    transform: rotate(341deg);
+}
+/* .c32{
+    background: ghostwhite;
+    transform: rotate(352deg);
+} */
